@@ -1,0 +1,43 @@
+.about-us {
+  text-align: center;
+
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+.about-us h1 {
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+.about-us p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.about-us strong {
+  color: #6c5ce7;
+  font-size: 45px;
+}
+
+.lower_text {
+  font-weight: 600;
+  color: rgb(0, 238, 255);
+}
+
+@media (max-width: 600px) {
+  .card {
+    margin-left: 0 !important;
+  }
+  .about-us {
+    font-size: 15px;
+    padding: 10px;
+  }
+  
+  .about-us h1 {
+    font-size: 20px;
+  }
+
+  .about-us strong {
+    font-size: 25px;
+  }
+}

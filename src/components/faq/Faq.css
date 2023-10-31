@@ -1,0 +1,44 @@
+.faq-heading{
+    color: white;
+    font-weight: 300;
+
+}
+
+.faq-accordion{
+   width: 90%;
+margin: 5px;
+}
+.accordion-item{
+    background: #6c5ce7;
+    border: none;
+    border-radius: 15%;
+    color: white;
+
+}
+.accordion{
+
+    margin: 10px;
+}
+.accordion-header{
+padding-left: 16px !important;
+    font-size: 20px;
+}
+
+
+@media (max-width: 600px) {
+
+    
+
+    
+    h2{
+        font-size: 20px;
+    }
+    .accordion-header{
+        padding-left: 16px !important;
+            font-size: 15px;
+        }
+        
+        .accordion-body {
+            font-size: 12px;
+        }
+}

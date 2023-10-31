@@ -1,0 +1,19 @@
+.heading{
+    font-size: 30px
+}
+
+
+.link{
+    font-size: 18px !important; 
+    font-weight:600 !important;
+    text-decoration: none !important;
+    margin: 0 5px 0 5px ;
+    color: #000000 !important;
+   
+}
+
+.link:hover{
+    
+    text-decoration: underline !important;
+    margin: 0 5px 0 5px ;
+}
